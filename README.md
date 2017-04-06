@@ -1,3 +1,3 @@
 # blueprint-examples
 
-Example templates for use with Blueprint Visual Studio Extension: https://github.com/reesemclean/blueprint
+Example templates for use with Blueprint Visual Studio Code Extension: https://github.com/reesemclean/blueprint
