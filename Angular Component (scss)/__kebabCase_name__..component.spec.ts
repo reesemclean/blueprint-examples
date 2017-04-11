@@ -6,25 +6,25 @@ import {
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { {{namePascalCase}}Component } from './{{nameKebabCase}}.component';
+import { {{pascalCase name}}Component } from './{{kebabCase name}}.component';
 
-let component: {{namePascalCase}}Component;
-let fixture: ComponentFixture<{{namePascalCase}}Component>;
+let component: {{pascalCase name}}Component;
+let fixture: ComponentFixture<{{pascalCase name}}Component>;
 let page: Page;
 
-describe('Component: {{namePascalCase}}', () => {
+describe('Component: {{pascalCase name}}', () => {
 
   beforeEach(() => {
 
     TestBed.configureTestingModule({
       declarations: [
-        {{namePascalCase}}Component,
+        {{pascalCase name}}Component,
       ],
       providers: [],
       imports: []
     });
 
-    fixture = TestBed.createComponent({{namePascalCase}}Component);
+    fixture = TestBed.createComponent({{pascalCase name}}Component);
     component = fixture.componentInstance;
     page = new Page();
 
